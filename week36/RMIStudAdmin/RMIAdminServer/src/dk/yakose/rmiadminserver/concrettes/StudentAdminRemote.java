@@ -93,15 +93,12 @@ public class StudentAdminRemote extends UnicastRemoteObject implements StudentAd
                 // the file, using a comma as the delimiter
                 String[] attributes = line.split(",");
                 
-               //  int id = Integer.parseInt(attributes[0]);
+                 int id = Integer.parseInt(attributes[0]);
                  String name = attributes[1];
                  String email =attributes[2];
                  String address = attributes[3];
 
-                Student s = new Student();
-                s.setName(name);
-                s.setEmail(email);
-                s.setAddress(address);
+                Student s = new Student(id, name,email, address);                
                 // adding student into ArrayList
                 students.add(s);
 
