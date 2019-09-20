@@ -10,21 +10,11 @@ import dk.yakose.rmiserver.concretes.AdderRemote;
 import java.rmi.*;
 import java.rmi.registry.*;
 
-
-
-
 import java.net.InetAddress;
 import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-
-
-
-
-
-
-
 /**
  *
  * @author yakos
