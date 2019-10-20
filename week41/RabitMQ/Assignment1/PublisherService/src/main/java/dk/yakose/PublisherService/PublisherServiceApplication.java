@@ -1,13 +1,13 @@
-package dk.yakose.HotelCampaignPublisher;
+package dk.yakose.PublisherService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HotelCampaignPublisherApplication {
+public class PublisherServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HotelCampaignPublisherApplication.class, args);
+		SpringApplication.run(PublisherServiceApplication.class, args);
 	}
 
 }

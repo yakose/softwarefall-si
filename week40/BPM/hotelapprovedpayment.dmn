@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/DMN/20151101/dmn.xsd" id="Definitions_0gx9hie" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="3.3.5">
+  <decision id="approve-hotel" name="Hotel approved">
+    <decisionTable id="decisionTable_1">
+      <input id="input_1" label="room">
+        <inputExpression id="inputExpression_1" typeRef="string">
+          <text>room</text>
+        </inputExpression>
+      </input>
+      <output id="output_1" label="approved" name="approved" typeRef="boolean" />
+      <rule id="DecisionRule_1th7nr3">
+        <inputEntry id="UnaryTests_1m2p8wc">
+          <text>"room-xyz"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1gdjd5x">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1v75i9n">
+        <inputEntry id="UnaryTests_06ag3xf">
+          <text>non("room-xyz)</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1qj4i5l">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

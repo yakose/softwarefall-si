@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dk.yakose.HotelCampaignPublisher.model;
+package dk.yakose.hotelampaignconsumer.model;
 
 import java.io.Serializable;
 import java.util.List;
@@ -114,9 +114,5 @@ public class Hotel implements Serializable{
     @Override
     public String toString() {
         return "Hotel{" + "hotelId=" + hotelId + ", hotelName=" + hotelName + ", address=" + address + ", zipCode=" + zipCode + ", city=" + city + ", phoneNumber=" + phoneNumber + ", country=" + country + ", rating=" + rating + ", rooms=" + rooms + '}';
-    }
-    
-    
-
-       
+    }       
 }

@@ -3,10 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dk.yakose.HotelCampaignPublisher;
+package dk.yakose.hotelampaignconsumer;
 
-import dk.yakose.HotelCampaignPublisher.model.Hotel;
-import dk.yakose.HotelCampaignPublisher.model.Room;
+import dk.yakose.hotelampaignconsumer.model.Hotel;
 import java.util.List;
 
 /**
