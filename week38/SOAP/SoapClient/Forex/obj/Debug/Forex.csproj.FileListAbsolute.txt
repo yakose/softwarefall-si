@@ -1,0 +1,14 @@
+C:\workbench\bi\SystemIntegration\WebServices\SOAP\mavenproject1\SoftwareIntegration\SOAP-WS\SoapClient\Forex\bin\Debug\Forex.exe.config
+C:\workbench\bi\SystemIntegration\WebServices\SOAP\mavenproject1\SoftwareIntegration\SOAP-WS\SoapClient\Forex\bin\Debug\Forex.exe
+C:\workbench\bi\SystemIntegration\WebServices\SOAP\mavenproject1\SoftwareIntegration\SOAP-WS\SoapClient\Forex\bin\Debug\Forex.pdb
+C:\workbench\bi\SystemIntegration\WebServices\SOAP\mavenproject1\SoftwareIntegration\SOAP-WS\SoapClient\Forex\obj\Debug\Forex.csprojAssemblyReference.cache
+C:\workbench\bi\SystemIntegration\WebServices\SOAP\mavenproject1\SoftwareIntegration\SOAP-WS\SoapClient\Forex\obj\Debug\Forex.csproj.CoreCompileInputs.cache
+C:\workbench\bi\SystemIntegration\WebServices\SOAP\mavenproject1\SoftwareIntegration\SOAP-WS\SoapClient\Forex\obj\Debug\Forex.exe
+C:\workbench\bi\SystemIntegration\WebServices\SOAP\mavenproject1\SoftwareIntegration\SOAP-WS\SoapClient\Forex\obj\Debug\Forex.pdb
+C:\Users\yakos\OneDrive\Desktop\SystemInt\assigments\WebServices\SOAP\SoapClient\Forex\bin\Debug\Forex.exe.config
+C:\Users\yakos\OneDrive\Desktop\SystemInt\assigments\WebServices\SOAP\SoapClient\Forex\bin\Debug\Forex.exe
+C:\Users\yakos\OneDrive\Desktop\SystemInt\assigments\WebServices\SOAP\SoapClient\Forex\bin\Debug\Forex.pdb
+C:\Users\yakos\OneDrive\Desktop\SystemInt\assigments\WebServices\SOAP\SoapClient\Forex\obj\Debug\Forex.csprojAssemblyReference.cache
+C:\Users\yakos\OneDrive\Desktop\SystemInt\assigments\WebServices\SOAP\SoapClient\Forex\obj\Debug\Forex.csproj.CoreCompileInputs.cache
+C:\Users\yakos\OneDrive\Desktop\SystemInt\assigments\WebServices\SOAP\SoapClient\Forex\obj\Debug\Forex.exe
+C:\Users\yakos\OneDrive\Desktop\SystemInt\assigments\WebServices\SOAP\SoapClient\Forex\obj\Debug\Forex.pdb

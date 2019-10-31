@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://yakose.dk/" targetNamespace="http://yakose.dk/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="exchangeFromDollarToKrone" type="tns:exchangeFromDollarToKrone" />
+  <xs:element name="exchangeFromDollarToKroneResponse" type="tns:exchangeFromDollarToKroneResponse" />
+  <xs:element name="exchangeFromEuroToKrone" type="tns:exchangeFromEuroToKrone" />
+  <xs:element name="exchangeFromEuroToKroneResponse" type="tns:exchangeFromEuroToKroneResponse" />
+  <xs:element name="exchangeFromKroneToDollar" type="tns:exchangeFromKroneToDollar" />
+  <xs:element name="exchangeFromKroneToDollarResponse" type="tns:exchangeFromKroneToDollarResponse" />
+  <xs:element name="exchangeFromKroneToEuro" type="tns:exchangeFromKroneToEuro" />
+  <xs:element name="exchangeFromKroneToEuroResponse" type="tns:exchangeFromKroneToEuroResponse" />
+  <xs:element name="exchangeFromKroneToPoud" type="tns:exchangeFromKroneToPoud" />
+  <xs:element name="exchangeFromKroneToPoudResponse" type="tns:exchangeFromKroneToPoudResponse" />
+  <xs:element name="exchangeFromPoundToKrone" type="tns:exchangeFromPoundToKrone" />
+  <xs:element name="exchangeFromPoundToKroneResponse" type="tns:exchangeFromPoundToKroneResponse" />
+  <xs:complexType name="exchangeFromKroneToDollar">
+    <xs:sequence>
+      <xs:element name="fromAmount" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exchangeFromKroneToDollarResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exchangeFromPoundToKrone">
+    <xs:sequence>
+      <xs:element name="fromAmount" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exchangeFromPoundToKroneResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exchangeFromKroneToPoud">
+    <xs:sequence>
+      <xs:element name="fromAmount" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exchangeFromKroneToPoudResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exchangeFromEuroToKrone">
+    <xs:sequence>
+      <xs:element name="fromAmount" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exchangeFromEuroToKroneResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exchangeFromKroneToEuro">
+    <xs:sequence>
+      <xs:element name="fromAmount" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exchangeFromKroneToEuroResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exchangeFromDollarToKrone">
+    <xs:sequence>
+      <xs:element name="fromAmount" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exchangeFromDollarToKroneResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

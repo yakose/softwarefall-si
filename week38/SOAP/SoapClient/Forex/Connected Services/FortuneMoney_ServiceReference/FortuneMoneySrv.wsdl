@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://yakose.dk/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="FortuneMoneySrv" targetNamespace="http://yakose.dk/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://desktop-8330fp6:8080/FortuneExchange/FortuneMoneySrv?xsd=1" namespace="http://yakose.dk/" />
+    </xsd:schema>
+  </types>
+  <message name="exchangeFromKroneToDollar">
+    <part name="parameters" element="tns:exchangeFromKroneToDollar" />
+  </message>
+  <message name="exchangeFromKroneToDollarResponse">
+    <part name="parameters" element="tns:exchangeFromKroneToDollarResponse" />
+  </message>
+  <message name="exchangeFromDollarToKrone">
+    <part name="parameters" element="tns:exchangeFromDollarToKrone" />
+  </message>
+  <message name="exchangeFromDollarToKroneResponse">
+    <part name="parameters" element="tns:exchangeFromDollarToKroneResponse" />
+  </message>
+  <message name="exchangeFromKroneToPoud">
+    <part name="parameters" element="tns:exchangeFromKroneToPoud" />
+  </message>
+  <message name="exchangeFromKroneToPoudResponse">
+    <part name="parameters" element="tns:exchangeFromKroneToPoudResponse" />
+  </message>
+  <message name="exchangeFromPoundToKrone">
+    <part name="parameters" element="tns:exchangeFromPoundToKrone" />
+  </message>
+  <message name="exchangeFromPoundToKroneResponse">
+    <part name="parameters" element="tns:exchangeFromPoundToKroneResponse" />
+  </message>
+  <message name="exchangeFromEuroToKrone">
+    <part name="parameters" element="tns:exchangeFromEuroToKrone" />
+  </message>
+  <message name="exchangeFromEuroToKroneResponse">
+    <part name="parameters" element="tns:exchangeFromEuroToKroneResponse" />
+  </message>
+  <message name="exchangeFromKroneToEuro">
+    <part name="parameters" element="tns:exchangeFromKroneToEuro" />
+  </message>
+  <message name="exchangeFromKroneToEuroResponse">
+    <part name="parameters" element="tns:exchangeFromKroneToEuroResponse" />
+  </message>
+  <portType name="FortuneMoneySrv">
+    <operation name="exchangeFromKroneToDollar">
+      <input wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromKroneToDollarRequest" message="tns:exchangeFromKroneToDollar" />
+      <output wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromKroneToDollarResponse" message="tns:exchangeFromKroneToDollarResponse" />
+    </operation>
+    <operation name="exchangeFromDollarToKrone">
+      <input wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromDollarToKroneRequest" message="tns:exchangeFromDollarToKrone" />
+      <output wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromDollarToKroneResponse" message="tns:exchangeFromDollarToKroneResponse" />
+    </operation>
+    <operation name="exchangeFromKroneToPoud">
+      <input wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromKroneToPoudRequest" message="tns:exchangeFromKroneToPoud" />
+      <output wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromKroneToPoudResponse" message="tns:exchangeFromKroneToPoudResponse" />
+    </operation>
+    <operation name="exchangeFromPoundToKrone">
+      <input wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromPoundToKroneRequest" message="tns:exchangeFromPoundToKrone" />
+      <output wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromPoundToKroneResponse" message="tns:exchangeFromPoundToKroneResponse" />
+    </operation>
+    <operation name="exchangeFromEuroToKrone">
+      <input wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromEuroToKroneRequest" message="tns:exchangeFromEuroToKrone" />
+      <output wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromEuroToKroneResponse" message="tns:exchangeFromEuroToKroneResponse" />
+    </operation>
+    <operation name="exchangeFromKroneToEuro">
+      <input wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromKroneToEuroRequest" message="tns:exchangeFromKroneToEuro" />
+      <output wsam:Action="http://yakose.dk/FortuneMoneySrv/exchangeFromKroneToEuroResponse" message="tns:exchangeFromKroneToEuroResponse" />
+    </operation>
+  </portType>
+  <binding name="FortuneMoneySrvPortBinding" type="tns:FortuneMoneySrv">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="exchangeFromKroneToDollar">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="exchangeFromDollarToKrone">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="exchangeFromKroneToPoud">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="exchangeFromPoundToKrone">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="exchangeFromEuroToKrone">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="exchangeFromKroneToEuro">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="FortuneMoneySrv">
+    <port name="FortuneMoneySrvPort" binding="tns:FortuneMoneySrvPortBinding">
+      <soap:address location="http://desktop-8330fp6:8080/FortuneExchange/FortuneMoneySrv" />
+    </port>
+  </service>
+</definitions>
