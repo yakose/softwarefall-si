@@ -31,10 +31,15 @@ Programming Exercises
 Exercise 1
 Exercise 2
 Exercise 3
+
 Homework Assignments (Peergrade)
 It is a group project, a larger programming task of developing business application, which consumes at least two web services: one SOAP and one REST.
+
+
 The RESTful web services are explained in the next session.
 Other Learning Resources
+
+
 Link to Resources
 Coming Next
 RESTful Web Services
