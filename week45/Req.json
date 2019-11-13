@@ -1,0 +1,14 @@
+{
+  "firstName": "Arnold",
+  "lastName": "Schwartz",
+  "Id": "KJ1134",
+  "manager": "Yakubu Oseni",
+  "travelPurpose": "Going to meet Chuck & Arnold regarding our last meeting",
+  "neededArangement": [
+    "Flight,Hotel"
+  ],
+  "departureCity": "Copenhagen",
+  "arrivalCity": "New York",
+  "departureDate": "23/03/2020",
+  "returnDate": "30/03/2020"
+}
